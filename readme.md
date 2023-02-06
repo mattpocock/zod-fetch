@@ -66,3 +66,11 @@ For teams that want to combine runtime-safety with a fetcher (an extremely commo
 2. Hack something together on your own
 
 I hope that this small API offers a nice compromise for teams looking to bridge that gap. Or, at least, offers some pretty example code you can copy-and-paste into your projects.
+
+## Want to learn TypeScript?
+
+`zod-fetch` only really exists because there's some TypeScript magic required to help `zod` and `fetch` knit together nicely.
+
+I cover this TS magic in my TypeScript course, [Total TypeScript](https://totaltypescript.com).
+
+There's also a free [Beginners TypeScript Tutorial](https://totaltypescript.com/tutorials) to get you started, and [even one on Zod](https://www.totaltypescript.com/tutorials/zod)!
