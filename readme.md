@@ -31,7 +31,7 @@ If you don't pass a fetcher to `createZodFetcher`, it uses a sensible default fe
 
 ### Using a custom fetcher
 
-You can pass custom fetchers to `zod-fetch`:
+You can pass custom fetchers to `createZodFetcher`:
 
 ```ts
 import { z } from "zod";

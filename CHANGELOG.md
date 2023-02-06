@@ -35,7 +35,7 @@
 
   ### Using a custom fetcher
 
-  You can pass custom fetchers to `zod-fetch`:
+  You can pass custom fetchers to `createZodFetcher`:
 
   ```ts
   import { z } from "zod";
