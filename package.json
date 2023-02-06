@@ -19,6 +19,9 @@
   ],
   "author": "Matt Pocock",
   "license": "MIT",
+  "peerDependencies": {
+    "zod": "^3.20.2"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "tsup": "^6.5.0",
