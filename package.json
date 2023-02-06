@@ -19,6 +19,10 @@
   ],
   "author": "Matt Pocock",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattpocock/zod-fetch.git"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "tsup": "^6.5.0",
