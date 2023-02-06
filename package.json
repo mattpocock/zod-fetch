@@ -9,7 +9,8 @@
     "dev": "vitest",
     "test": "vitest run",
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "pnpm run build && changset publish"
   },
   "keywords": [
     "zod",
