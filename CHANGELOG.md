@@ -14,7 +14,7 @@
 
   ```ts
   import { z } from "zod";
-  import { createZodFetcher } from "zod-fetcher";
+  import { createZodFetcher } from "zod-fetch";
 
   const fetchWithZod = createZodFetcher();
 
@@ -24,7 +24,7 @@
       hello: "world",
     }),
     // Any parameters you would usually pass to fetch
-    "/my-api"
+    "/my-api",
   ).then((res) => {
     console.log(res);
     //          ^? { hello: string }
@@ -35,11 +35,11 @@
 
   ### Using a custom fetcher
 
-  You can pass custom fetchers to `zod-fetcher`:
+  You can pass custom fetchers to `zod-fetch`:
 
   ```ts
   import { z } from "zod";
-  import { createZodFetcher } from "zod-fetcher";
+  import { createZodFetcher } from "zod-fetch";
   import axios from "axios";
 
   const fetchWithZod = createZodFetcher(axios.get);
@@ -55,7 +55,7 @@
       params: {
         id: 12345,
       },
-    }
+    },
   ).then((res) => {
     console.log(res);
     //          ^? { data: { name: string } }

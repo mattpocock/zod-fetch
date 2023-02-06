@@ -10,7 +10,7 @@ You can create a fetcher using `createZodFetcher`:
 
 ```ts
 import { z } from "zod";
-import { createZodFetcher } from "zod-fetcher";
+import { createZodFetcher } from "zod-fetch";
 
 const fetchWithZod = createZodFetcher();
 
@@ -31,11 +31,11 @@ If you don't pass a fetcher to `createZodFetcher`, it uses a sensible default fe
 
 ### Using a custom fetcher
 
-You can pass custom fetchers to `zod-fetcher`:
+You can pass custom fetchers to `zod-fetch`:
 
 ```ts
 import { z } from "zod";
-import { createZodFetcher } from "zod-fetcher";
+import { createZodFetcher } from "zod-fetch";
 import axios from "axios";
 
 const fetchWithZod = createZodFetcher(axios.get);
