@@ -17,7 +17,7 @@ const fetchWithZod = createZodFetcher();
 fetchWithZod(
   // The schema you want to validate with
   z.object({
-    hello: "world",
+    hello: z.literal("world"),
   }),
   // Any parameters you would usually pass to fetch
   "/my-api",
