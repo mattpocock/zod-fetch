@@ -1,5 +1,11 @@
 # zod-fetch
 
+## 0.1.1
+
+### Patch Changes
+
+- Updated readme
+
 ## 0.1.0
 
 ### Minor Changes
@@ -24,7 +30,7 @@
       hello: "world",
     }),
     // Any parameters you would usually pass to fetch
-    "/my-api",
+    "/my-api"
   ).then((res) => {
     console.log(res);
     //          ^? { hello: string }
@@ -55,7 +61,7 @@
       params: {
         id: 12345,
       },
-    },
+    }
   ).then((res) => {
     console.log(res);
     //          ^? { data: { name: string } }
